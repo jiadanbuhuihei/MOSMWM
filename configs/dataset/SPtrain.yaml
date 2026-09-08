@@ -1,0 +1,12 @@
+# 训练时的数据集的配置文件
+train_dataset:
+  target: world_model.data.SPDataset.SPDataset
+  params:
+    data_dir: /mnt/vlm-ks3/chenkaijin/MOSMWM/world_model/dataset/train
+    obs_resize: [1280, 704]
+
+test_dataset:
+  target: world_model.data.SPDataset.SPDataset
+  params:
+    data_dir: /mnt/vlm-ks3/chenkaijin/MOSMWM/world_model/dataset/test
+    obs_resize: [1280, 704]

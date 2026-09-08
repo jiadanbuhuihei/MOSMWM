@@ -1,0 +1,10 @@
+default_config:
+  t5_checkpoint: Wan2.2-TI2V-5B/models_t5_umt5-xxl-enc-bf16.pth
+  t5_tokenizer: Wan2.2-TI2V-5B/google/umt5-xxl
+  vae_checkpoint: Wan2.2-TI2V-5B/Wan2.2_VAE.pth
+  sample_neg_prompt: 色调艳丽，过曝，静态，细节模糊不清，字幕，风格，作品，画作，画面，静止，整体发灰，最差质量，低质量，JPEG压缩残留，丑陋的，残缺的，多余的手指，画得不好的手部，画得不好的脸部，畸形的，毁容的，形态畸形的肢体，手指融合，静止不动的画面，杂乱的背景，三条腿，背景人很多，倒着走
+  checkpoint_dir: world_model/checkpoints
+  pretrained_wan22_path: "world_model/checkpoints/Wan2.2-TI2V-5B"
+  batch_size: 1
+  num_workers: 8
+  num_frames: 81

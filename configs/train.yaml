@@ -1,0 +1,9 @@
+defaults:
+  - shared
+  - dataset: SPtrain
+  - optimizer: adamw
+  - scheduler: cosine
+  - trainer: SPTrainer
+  - _self_
+
+

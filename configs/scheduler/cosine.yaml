@@ -1,0 +1,5 @@
+target: world_model.utils.scheduler.CosineWarmupScheduler
+params:
+  warmup_steps: 5000
+  total_steps: 1000000
+  min_lr_ratio: 0.01
